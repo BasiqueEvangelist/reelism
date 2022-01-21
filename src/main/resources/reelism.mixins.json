@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.basiqueevangelist.reelism.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "CreeperEntityMixin",
+    "ExplosionMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
