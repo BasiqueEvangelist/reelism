@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "me.basiqueevangelist.reelism.Reelism"
+    ],
+    "fabric-datagen": [
+      "me.basiqueevangelist.reelism.datagen.ReelismDatagen"
     ]
   },
   "mixins": [
