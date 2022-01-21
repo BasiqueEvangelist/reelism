@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "#fabric:axes",
+        "reelism:diamond_battle_axe",
+        "reelism:iron_battle_axe"
+    ]
+}

@@ -4,9 +4,17 @@
   "package": "me.basiqueevangelist.reelism.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "AnvilBlockMixin",
     "AxeItemMixin",
     "CreeperEntityMixin",
     "ExplosionMixin",
+    "LivingEntityMixin",
+    "MiningToolItemMixin",
+    "MooshroomEntityMixin",
+    "PigEntityMixin",
+    "PlayerEntityMixin",
+    "SwordItemMixin",
+    "VillagerEntityMixin",
     "WeaponEnchantmentTargetMixin"
   ],
   "client": [
