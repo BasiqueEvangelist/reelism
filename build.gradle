@@ -48,6 +48,7 @@ repositories {
 			includeGroup "maven.modrinth"
 		}
 	}
+	maven { url 'https://jitpack.io' }
 }
 
 dependencies {
@@ -60,6 +61,8 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
 	modLocalRuntime "maven.modrinth:lazydfu:0.1.2"
+
+	include annotationProcessor(implementation("com.github.LlamaLad7:MixinExtras:0.0.3"))
 }
 
 processResources {

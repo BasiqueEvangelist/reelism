@@ -21,6 +21,9 @@
     "main": [
       "me.basiqueevangelist.reelism.Reelism"
     ],
+    "preLaunch": [
+      "me.basiqueevangelist.reelism.ReelismPrelaunch"
+    ],
     "fabric-datagen": [
       "me.basiqueevangelist.reelism.datagen.ReelismDatagen"
     ]
