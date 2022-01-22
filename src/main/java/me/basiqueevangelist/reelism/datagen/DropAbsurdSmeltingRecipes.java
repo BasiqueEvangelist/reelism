@@ -33,12 +33,12 @@ public class DropAbsurdSmeltingRecipes implements DataProvider {
     public void run(DataCache cache) {
         for (SmeltingRecipe recipe : recipeManager.listAllOfType(RecipeType.SMELTING)) {
             if (ArrayUtils.contains(BANNED_ITEMS, recipe.getOutput().getItem()))
-                DatagenUtil.writeEmptyRecipe(dataGenerator, recipe.getId());
+                DatagenUtil.writeEmptyRecipe(dataGenerator, cache, recipe.getId());
         }
 
         for (BlastingRecipe recipe : recipeManager.listAllOfType(RecipeType.BLASTING)) {
             if (ArrayUtils.contains(BANNED_ITEMS, recipe.getOutput().getItem()))
-                DatagenUtil.writeEmptyRecipe(dataGenerator, recipe.getId());
+                DatagenUtil.writeEmptyRecipe(dataGenerator, cache, recipe.getId());
         }
     }
 
