@@ -8,6 +8,7 @@
     "AxeItemMixin",
     "CreeperEntityMixin",
     "ExplosionMixin",
+    "JsonDataLoaderMixin",
     "LivingEntityMixin",
     "MiningToolItemMixin",
     "MooshroomEntityMixin",
