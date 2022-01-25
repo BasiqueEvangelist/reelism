@@ -1,0 +1,10 @@
+accessWidener v2 named
+accessible field net/minecraft/loot/LootPool entries [Lnet/minecraft/loot/entry/LootPoolEntry;
+accessible field net/minecraft/loot/LootPool conditions [Lnet/minecraft/loot/condition/LootCondition;
+mutable field net/minecraft/loot/LootPool conditions [Lnet/minecraft/loot/condition/LootCondition;
+accessible field net/minecraft/loot/entry/CombinedEntry children [Lnet/minecraft/loot/entry/LootPoolEntry;
+accessible field net/minecraft/loot/entry/LootPoolEntry conditions [Lnet/minecraft/loot/condition/LootCondition;
+mutable field net/minecraft/loot/entry/LootPoolEntry conditions [Lnet/minecraft/loot/condition/LootCondition;
+accessible field net/minecraft/loot/condition/MatchToolLootCondition predicate Lnet/minecraft/predicate/item/ItemPredicate;
+accessible field net/minecraft/predicate/item/ItemPredicate enchantments [Lnet/minecraft/predicate/item/EnchantmentPredicate;
+accessible field net/minecraft/predicate/item/EnchantmentPredicate enchantment Lnet/minecraft/enchantment/Enchantment;

@@ -33,6 +33,8 @@ loom {
 			runDir "build/datagen"
 		}
 	}
+
+	accessWidenerPath = file("src/main/resources/reelism.accesswidener")
 }
 assemble.dependsOn runDatagen
 
