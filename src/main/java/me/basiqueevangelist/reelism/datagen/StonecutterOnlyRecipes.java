@@ -36,7 +36,6 @@ public class StonecutterOnlyRecipes implements DataProvider {
             if (!outputItemName.contains("polished") && (outputItemName.contains("cobble") || inputItemName.contains("brick") || outputItemName.contains("sandstone")))
                 continue;
 
-            System.out.println("Overwriting " + matchingCraftingRecipeOpt.get().getId());
             DatagenUtil.writeEmptyRecipe(dataGenerator, cache, matchingCraftingRecipeOpt.get().getId());
         }
     }

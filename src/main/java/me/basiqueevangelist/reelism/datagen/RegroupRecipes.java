@@ -66,6 +66,6 @@ public class RegroupRecipes implements DataProvider {
 
     @Override
     public String getName() {
-        return null;
+        return "Regroup recipes";
     }
 }
