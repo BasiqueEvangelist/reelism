@@ -1,5 +1,6 @@
 package me.basiqueevangelist.reelism;
 
+import me.basiqueevangelist.reelism.entity.ReelismEntities;
 import me.basiqueevangelist.reelism.item.ReelismItems;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
@@ -18,5 +19,6 @@ public class Reelism implements ModInitializer {
     public void onInitialize() {
         LOGGER.info("It's time for your fantasy flattening!");
         ReelismItems.register();
+        ReelismEntities.register();
     }
 }

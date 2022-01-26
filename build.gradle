@@ -64,6 +64,8 @@ dependencies {
 
 	modLocalRuntime "maven.modrinth:lazydfu:0.1.2"
 
+	modImplementation include("maven.modrinth:jsonem:${project.jsonem_version}")
+
 	include annotationProcessor(implementation("com.github.LlamaLad7:MixinExtras:0.0.3"))
 }
 

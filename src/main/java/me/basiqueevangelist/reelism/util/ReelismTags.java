@@ -12,5 +12,7 @@ public class ReelismTags {
     }
 
     public static final Tag.Identified<Block> CREEPER_REPLACEABLE_BLOCKS = TagFactory.BLOCK.create(Reelism.id("creeper_replaceable_blocks"));
+    public static final Tag.Identified<Block> STURDY_STICK_MINEABLE = TagFactory.BLOCK.create(Reelism.id("mineable/sturdy_stick"));
+
     public static final Tag.Identified<Item> CAN_BREAK_SHIELD = TagFactory.ITEM.create(Reelism.id("can_break_shield"));
 }

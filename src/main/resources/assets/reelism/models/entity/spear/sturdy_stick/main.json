@@ -1,0 +1,30 @@
+{
+    "texture": {
+        "width": 32,
+        "height": 32
+    },
+    "bones": {
+        "bone": {
+            "cuboids": [
+                {
+                    "name": "stick",
+                    "offset": [
+                        -0.5,
+                        2,
+                        -0.5
+                    ],
+                    "dimensions": [
+                        1,
+                        25,
+                        1
+                    ],
+                    "uv": [
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "children": {}
+        }
+    }
+}

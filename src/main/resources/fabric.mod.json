@@ -21,6 +21,9 @@
     "main": [
       "me.basiqueevangelist.reelism.Reelism"
     ],
+    "client": [
+      "me.basiqueevangelist.reelism.client.ReelismClient"
+    ],
     "preLaunch": [
       "me.basiqueevangelist.reelism.ReelismPrelaunch"
     ],
