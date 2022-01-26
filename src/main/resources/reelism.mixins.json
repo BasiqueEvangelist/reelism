@@ -1,26 +1,27 @@
 {
-  "required": true,
-  "minVersion": "0.8",
-  "package": "me.basiqueevangelist.reelism.mixin",
-  "compatibilityLevel": "JAVA_17",
-  "mixins": [
-    "AnvilBlockMixin",
-    "AxeItemMixin",
-    "CreeperEntityMixin",
-    "ExplosionMixin",
-    "JsonDataLoaderMixin",
-    "LivingEntityMixin",
-    "MiningToolItemMixin",
-    "MooshroomEntityMixin",
-    "PigEntityMixin",
-    "PlayerEntityMixin",
-    "SwordItemMixin",
-    "VillagerEntityMixin",
-    "WeaponEnchantmentTargetMixin"
-  ],
-  "client": [
-  ],
-  "injectors": {
-    "defaultRequire": 1
+    "required": true,
+    "minVersion": "0.8",
+    "package": "me.basiqueevangelist.reelism.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [
+        "AnvilBlockMixin",
+        "AxeItemMixin",
+        "CreeperEntityMixin",
+        "CropBlockMixin",
+        "ExplosionMixin",
+        "JsonDataLoaderMixin",
+        "LivingEntityMixin",
+        "MiningToolItemMixin",
+        "MooshroomEntityMixin",
+        "PigEntityMixin",
+        "PlayerEntityMixin",
+        "SwordItemMixin",
+        "VillagerEntityMixin",
+        "WeaponEnchantmentTargetMixin"
+    ],
+    "client": [
+    ],
+    "injectors": {
+        "defaultRequire": 1
   }
 }
